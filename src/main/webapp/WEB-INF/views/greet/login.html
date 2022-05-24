@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+
+        }
+        .container{
+            display: block;
+            width: 100vw;
+            height: 100vw;
+            background-color: orchid;
+            overflow: hidden;
+        }
+
+        .text {
+            color: fuchsia;
+            padding: 70px 200px 8px 200px;
+
+        }
+
+        form{
+            border-radius: 25px;
+            background-color: white;
+            width: 600px;
+            height: 600px;
+
+        }
+
+        span.psw {
+            float: inside;
+            padding-top: 16px;
+        }
+
+        .formContent{
+            width: 600px;
+            margin: 0 auto;
+            padding:25px;
+        }
+
+        input{
+            border-radius: 25px;
+            font-family: cursive;
+            border-color: fuchsia;
+            padding: 10px 40px 10px;
+            width: 360px;
+            margin: 20px 80px 20px 80px;
+        }
+
+        .login{
+            border-radius: 25px;
+            color: white;
+            border-color: fuchsia;
+            background-color: red;
+            padding: 10px 40px 10px;
+            width: 130px;
+            margin: 20px 220px 20px 220px;
+
+        }
+
+        #forgot-pass{
+            font-family: sans-serif;
+            margin: 30px 225px 50px 225px;
+        }
+    </style>
+    <link rel="stylesheet" href="./css.css">
+
+</head>
+
+<body>
+
+<div class="container">
+    <div class="formContent">
+        <form>
+            <h1 class="text">Login page</h1>
+            <label  for="username" ></label>
+            <input id="username" placeholder="Username" type="text" />
+            <label for="password" ></label>
+            <input id="password" placeholder="Password" type="password"/>
+            <!--      <input type="submit" value="Login"/>-->
+            <button class="login">Login</button>
+            <Label className="d-flex justify-content-between">
+                <div id="forgot-pass" >
+                    <a href="/forgot-password ">Forgot Password? </a>
+                </div>
+            </Label>
+
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>
